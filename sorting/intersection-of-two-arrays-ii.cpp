@@ -1,0 +1,33 @@
+class Solution {
+public:
+    vector<int> intersect(vector<int>& nums1, vector<int>& nums2) {
+        int n = nums1.size();
+    int m = nums2.size();
+    vector<int> ans;
+    sort(nums1.begin(), nums1.end()); // done to reduct th etime complexity to O(n*logn), otherwise had to use nested loops
+    sort(nums2.begin(), nums2.end());
+
+    int i = 0;
+    int j = 0;
+
+    while (i < n && j < m)
+    {
+        if (nums2[j] < nums1[i])
+        {
+            j++;
+        }
+        else if (nums2[j] > nums1[i])
+        {
+            i++;
+        }
+        else
+        {
+            ans.push_back(nums1[i]);
+            i++;
+            j++;
+        }
+    }
+
+   return ans;
+    }
+};
