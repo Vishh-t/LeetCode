@@ -1,24 +1,35 @@
 class Solution {
 public:
-    vector<int> twoSum(vector<int>& arr, int target) {
-        int n = arr.size();
-       
-        unordered_map<int, int> m;
-        vector<int> ans;
+    vector<int> twoSum(vector<int>& nums, int target) {
+        int size = nums.size();
+  vector<int> copy = nums;
 
-        for (int i = 0; i < n; i++) {
-            int first = arr[i];
-            int sec = target - first;
+  sort(nums.begin(), nums.end());
+  int i = 0;
+  int j = size - 1;
+  int num1, num2;
 
-            if (m.find(sec) != m.end()) {
-                ans.push_back(m[sec]);
-                ans.push_back(i);
-                break;
-            } 
-                m[first] = i;
-            
-        }
+  while (i < j) {
+    if (nums[i] + nums[j] < target) {
+      i++;
+      continue;
+    } else if (nums[i] + nums[j] > target) {
+      j--;
+      continue;
+    } else {
+      num1 = nums[i];
+      num2 = nums[j];
+      break;
+    }
+  }
 
-        return ans;
+  auto idx1 = find(copy.begin(), copy.end(), num1);
+  auto idx2 = find(copy.rbegin(), copy.rend(), num2);
+
+  vector<int> answer(2);
+  answer[0] = idx1 - copy.begin();
+  answer[1] = copy.size() - 1 - (idx2 - copy.rbegin());
+
+  return answer;
     }
 };
