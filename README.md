@@ -10,13 +10,19 @@ Backup by [SyncLeet](https://chromewebstore.google.com/detail/syncleet/maoikpiio
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Vishh-t/LeetCode/tree/master/0001-two-sum) |
+| [0128-longest-consecutive-sequence](https://github.com/Vishh-t/LeetCode/tree/master/0128-longest-consecutive-sequence) |
 | [0136-single-number](https://github.com/Vishh-t/LeetCode/tree/master/0136-single-number) |
 ## Hash Table
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Vishh-t/LeetCode/tree/master/0001-two-sum) |
+| [0128-longest-consecutive-sequence](https://github.com/Vishh-t/LeetCode/tree/master/0128-longest-consecutive-sequence) |
 ## Bit Manipulation
 |  |
 | ------- |
 | [0136-single-number](https://github.com/Vishh-t/LeetCode/tree/master/0136-single-number) |
+## Union-Find
+|  |
+| ------- |
+| [0128-longest-consecutive-sequence](https://github.com/Vishh-t/LeetCode/tree/master/0128-longest-consecutive-sequence) |
 <!---LeetCode Topics End-->
