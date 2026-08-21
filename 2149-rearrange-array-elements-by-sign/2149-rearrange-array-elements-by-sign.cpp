@@ -2,8 +2,7 @@ class Solution {
 public:
     vector<int> rearrangeArray(vector<int>& nums) {
         int size = nums.size();
-  int i = 0;
-  int j = i + 1;
+  
 
   vector<int> positives;
   vector<int> negatives;
@@ -16,7 +15,6 @@ public:
     }
   }
 
-  vector<int> answer;
   int count = 0;
   int p = 0;
   int n = 0;
