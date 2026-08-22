@@ -12,6 +12,7 @@ Backup by [SyncLeet](https://chromewebstore.google.com/detail/syncleet/maoikpiio
 | [0001-two-sum](https://github.com/Vishh-t/LeetCode/tree/master/0001-two-sum) |
 | [0128-longest-consecutive-sequence](https://github.com/Vishh-t/LeetCode/tree/master/0128-longest-consecutive-sequence) |
 | [0136-single-number](https://github.com/Vishh-t/LeetCode/tree/master/0136-single-number) |
+| [0704-binary-search](https://github.com/Vishh-t/LeetCode/tree/master/0704-binary-search) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/Vishh-t/LeetCode/tree/master/2149-rearrange-array-elements-by-sign) |
 ## Hash Table
 |  |
@@ -34,4 +35,8 @@ Backup by [SyncLeet](https://chromewebstore.google.com/detail/syncleet/maoikpiio
 |  |
 | ------- |
 | [2149-rearrange-array-elements-by-sign](https://github.com/Vishh-t/LeetCode/tree/master/2149-rearrange-array-elements-by-sign) |
+## Binary Search
+|  |
+| ------- |
+| [0704-binary-search](https://github.com/Vishh-t/LeetCode/tree/master/0704-binary-search) |
 <!---LeetCode Topics End-->
